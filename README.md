@@ -3,7 +3,8 @@ Below Average Gaming Scripts Collection:
 Welcome to the Below Average Gaming repository! This collection of scripts is designed to help retro gaming enthusiasts organize, rename, and manage their game files and cover art across various platforms, including SNES, GBC, Sega Genesis, Commodore 64, and more. (24 systems as of now) 
 These tools are made to be easy for use and you can see them in action on the "Below Average Gaming" Youtube channel. (https://www.youtube.com/channel/UCyG6VwGcUodVTCFEnqiCFDg)
 
-Overview
+Overview:
+
 This repository includes a variety of Python scripts that automate the process of renaming and organizing retro game files and their corresponding cover art. The scripts are designed to match game files to specific naming conventions, ensure consistency across collections, and assist with integrating the proper file extensions for each title.
 
 Key Features
