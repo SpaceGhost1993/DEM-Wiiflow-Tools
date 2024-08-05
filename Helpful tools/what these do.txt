@@ -1,0 +1,17 @@
+".cue txt creator" will add ".cue" to the end of every .txt file (Useful for systems like PS1 and Sega CD
+
+"_2D remover" is a script probably just for me. I have some old text lists with game names that are wierdly named with _2d at the end, and it removes it.
+
+"Boxart title ripper" you can open this script when its inside a folder that houses coverart for your systems and it will rip just the title names for you
+
+"Export text names from 1 text file" will let you open a .txt file and will rip the contents of the file
+
+"reverse text export" will turn a big list of seperate .txt files into 1 .txt file housing them all
+
+"special character remover" takes away characters that interfer with the matching process
+
+"Test region seperator script" is still in the works, but will seperate .txt files base on whatever region is in the titles (USA) (EU) and so on
+
+"title name creator" when opened will create a list of .txt files based on the other files presesnt in the same directory
+
+"USA remover 2.0" dispite the name removes everything inside "()" example "Mario (USA)"
