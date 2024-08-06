@@ -22,28 +22,51 @@ Iterative Processing: Scripts are designed to run iteratively, ensuring all file
 Supported Platforms so far:
 
 Super Nintendo Entertainment System (SNES)
+
 Game Boy Color (GBC)
+
 Sega Genesis
+
 Sega CD
+
 Commodore 64
+
 Atari 2600
+
 Atari 5200
+
 Atari 7800
+
 Atari LYNX
+
 Colecovision
+
 Game & Watch
+
 Original Game Boy
+
 Game Boy Advance
+
 Intellivision
+
 MAME
+
 Sega Master System
+
 Nintendo 64
+
 Neo Geo Pocket Color
+
 Nintendo Entertainment System (NES)
+
 PlayStation 1
+
 Sega Game Gear
+
 TurboGrafx
+
 Virtual Boy
+
 Wonderswan Color
 
 
