@@ -2,75 +2,114 @@
 
 
 
-Below Average Gaming Scripts Collection:
+ 
+#  Below Average Gaming Wiiflow Scripts Collection (v4.0)
 
-Welcome to the Below Average Gaming repository for Wiiflow! This collection of scripts is designed to help retro gaming enthusiasts organize, rename, and manage their game files and cover art across various platforms, including SNES, GBC, Sega Genesis, Commodore 64, and more. (24 systems as of now) 
-These tools are made to be easy for use and you can see them in action on the "Below Average Gaming" Youtube channel. (https://youtu.be/0eYDwNgxgVk?si=qoaPJ_W4FqCY_KPm)
+Welcome to the **BAG** repository for Wiiflow!
+This collection of Python scripts helps retro gaming enthusiasts organize, rename, de-duplicate, and transfer their game files and cover art across **45 systems**—with support for auto-copying directly to your SD/USB drive.
 
-Overview:
+You can see them in action on the [Below Average Gaming YouTube channel](https://youtu.be/0eYDwNgxgVk?si=qoaPJ_W4FqCY_KPm).
 
-This repository includes a variety of Python scripts that automate the process of renaming and organizing retro game files and their corresponding cover art. The scripts are designed to match game and cover title files to specific naming conventions, ensuring consistency across collections, and assist with integrating the proper file extensions for each title.
+---
 
-Key Features
-Automated File Renaming: Scripts automatically detect and rename files, including .zip, .bin, .cue,.A26,.D64, and other common formats, based on predefined text lists.
+## 🔑 Key Features
 
-Specialized Naming Conventions: Handle specific cases such as converting Roman numerals to Arabic numerals, retaining disc numbers in filenames, and managing complex title structures.
+* **Automated File Renaming**
+  Detects and renames ROMs and cover art (`.zip`, `.bin`, `.cue`, `.a26`, `.d64`, etc.) based on curated text lists.
 
-Text Extraction and Processing: Tools for extracting game titles from web pages and exporting them to text files, making it easier to keep track of large collections and create new text lists for the scripts.
+* **Special Naming Conventions**
 
-Support for Multiple Platforms:
+  * Converts Roman numerals → Arabic numerals
+  * Retains disc numbers `(Disc 1), (Disc 2, …)`
+  * Cleans up complex title structures
 
-Scripts cater to various retro gaming platforms, including SNES, GBC, Genesis, and Commodore 64, with the flexibility to create others just by changing up some prompts with each script.
-Iterative Processing: Scripts are designed to run iteratively, ensuring all files are correctly renamed in one go, with ongoing checks for changes and updates.
+* **Duplicate Title Detection**
+  Scripts scan for duplicates (multiple versions of the same game) and let you choose which to keep, ensuring a clean Wiiflow library without clutter.
 
-Supported Platforms so far:
+* **Iterative Processing**
+  Runs in loops to ensure all files are renamed correctly—no stragglers left behind.
 
-Super Nintendo Entertainment System (SNES)
+* **Auto SD/USB Transfer**
+  New scripts automatically copy files into the correct structure on your SD or USB device for Wiiflow.
 
-Game Boy Color (GBC)
+---
 
-Sega Genesis
+## 🎮 Supported Platforms (45 total)
 
-Sega CD
+### 🕹️ Arcade
 
-Commodore 64
+* CPS2
+* CPS3
+* Final Burn Alpha
+* Final Burn Neo
+* MAME
 
-Atari 2600
+### 💾 PC
 
-Atari 5200
+* Commodore 64
 
-Atari 7800
+### 🎮 Consoles
 
-Atari LYNX
+* Amstrad GX4000
+* Atari 2600
+* Atari 5200
+* Atari 7800
+* Atari XEGS
+* Colecovision
+* CreatiVision
+* Famicom Disk System
+* Intellivision
+* Neo Geo CD
+* NES
+* Nintendo 64
+* Odyssey²
+* PC-FX
+* PlayStation 1
+* Satellaview
+* Sega 32X
+* Sega CD
+* Sega Genesis / Mega Drive
+* Sega Master System
+* Sega SG-1000
+* SNES / Super Famicom
+* SuperGrafx
+* Turbo Duo
+* TurboGrafx-16
+* Vectrex
 
-Colecovision
+### 🎮 Handhelds
 
-Game & Watch
+* Atari Lynx
+* Game & Watch
+* Game Boy
+* Game Boy Advance
+* Game Boy Color
+* Neo Geo Pocket
+* Neo Geo Pocket Color
+* Pokémon Mini
+* Sega Game Gear
+* Virtual Boy
+* Watara Supervision
+* WonderSwan
+* WonderSwan Color
 
-Original Game Boy
+---
 
-Game Boy Advance
+## 📂 How It Works (depending on the system)
 
-Intellivision
+1. Place your ROMs in the system’s `games/` folder.
+2. Place unzipped PNG cover art in the `cover art/` folder.
+3. Run the script (`python tool.py`). (example)
+4. Follow the prompts to rename, de-duplicate, organize, and (if wanted) transfer files to your SD/USB device.
 
-MAME
+Covers must **exactly match the ROM filename (including extension) + `.png`**, or Wiiflow won’t recognize them.
 
-Sega Master System
+> Example: `SuperGame.zip` → `SuperGame.zip.png`
 
-Nintendo 64
+renamed cover art will be sent to the "renamed cover art" folder
+renamed games will stay in the same folder
+---
 
-Neo Geo Pocket Color
 
-Nintendo Entertainment System (NES)
-
-PlayStation 1
-
-Sega Game Gear
-
-TurboGrafx
-
-Virtual Boy
-
-Wonderswan Color
 
 
