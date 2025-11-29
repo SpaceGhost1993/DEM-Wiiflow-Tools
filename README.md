@@ -3,7 +3,7 @@
 
 
  
-#  Below Average Gaming Wiiflow Scripts Collection (v4.0)
+#  Below Average Gaming Wiiflow Scripts Collection 
 
 Welcome to the **BAG** repository for Wiiflow!
 This collection of Python scripts helps retro gaming enthusiasts organize, rename, de-duplicate, and transfer their game files and cover art across **45 systems**—with support for auto-copying directly to your SD/USB drive.
