@@ -99,7 +99,7 @@ You can see them in action on the [Below Average Gaming YouTube channel](https:/
 
 1. Place your ROMs in the system’s `games/` folder.
 2. Place unzipped PNG cover art in the `cover art/` folder.
-3. Run the script (`python tool.py`). (example)
+3. Run the script (`DEM Wiiflow Tools Launcher.py`). 
 4. Follow the prompts to rename, de-duplicate, organize, and (if wanted) transfer files to your SD/USB device.
 
 Covers must **exactly match the ROM filename (including extension) + `.png`**, or Wiiflow won’t recognize them.
